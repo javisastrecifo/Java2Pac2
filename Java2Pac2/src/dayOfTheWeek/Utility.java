@@ -39,7 +39,7 @@ public class Utility {
 	public static boolean checkDate(int day, int month, int year, Date origin) {
 		int monthLength = monthLength(month, year);
 		if (year < origin.getYear()) {
-			System.out.println("The year should be greater than " + origin.getYear() + "\\n\\nTry again.");
+			System.out.println("The year should be greater than " + origin.getYear() + "\n\nTry again.");
 			return false;
 		} else if ((month < 1) || (month > 12)) {
 			System.out.println("Months should be between 1 and 12.\n\nTry again.");
